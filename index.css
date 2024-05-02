@@ -1,0 +1,105 @@
+/*CSS reqs:
+Make use of inline, internal, and external styling.
+Use five different CSS selectors.
+Use colors that complement each other.
+Coolors is one of many resources that can help you find a color palette.
+Use Flexbox and/or the Bootstrap Grid.
+Use at least two CSS animations.
+*/
+
+/*one animation - background color transition*/
+@media only screen and (orientation: landscape) {
+    body {
+      background-color:#fff5ec;
+    }
+  }
+  
+  @media only screen and (orientation: portrait) {
+    body {
+      background-color: pink;
+    }
+  } 
+
+body{ /*removes the space from the top of the website and the side margins*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+
+/* Header Styles */
+.header {
+    position: relative;
+    text-align: center;
+    background-image: url('zoom.PNG');
+    background-size:cover;
+    background-position: center;
+}
+
+
+/*create a hover selector for the nav bar*/
+nav{ 
+    list-style-type: none;
+    display: flex; /*adds nav bar onto one line*/
+    justify-content: space-evenly; /* Align the navigation items to the right */
+    padding: 10px;   
+    background-color: pink;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+  
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    color: #e971a3;
+}
+  
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure text appears above the GIF */
+    color: white; /* Adjust text color as needed */
+    font-size: 24px; /* Adjust font size as needed */
+    background-color: transparent; /* Set background color to transparent */
+}
+
+/*lines 84 - 103 styles the gallery images*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+ 
+.card-body {
+    width: auto;
+    margin-bottom: 20px;
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+}
+  
+.img-container img {
+    max-width: 100%;
+    height: 100%; /* Ensures the image fills the container height */
+}
+  
+  
+
+
+
