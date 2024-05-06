@@ -23,7 +23,6 @@ Use at least two CSS animations.
 body{ /*removes the space from the top of the website and the side margins*/
     margin: 0;
     padding: 0;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -66,22 +65,24 @@ nav a:hover {
     color: #e971a3;
 }
 
-/*this is the code for the 'Contact Us' text in front of the gif at the bottom of the page*/
+
+/*this is the code for the 'Marabella Cupcakes' text in front of the header image on the home page*/
 .text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; /* Ensure text appears above the GIF */
-    color: white; /* Adjust text color as needed */
     font-size: 24px; /* Adjust font size as needed */
     background-color: transparent; /* Set background color to transparent */
 }
+
 
 /*lines 82 - 101 styles the gallery images*/
 .container {
     display: flex;
     justify-content: center;
+    margin: 50px;
 }
  
 .card-body {
@@ -100,3 +101,8 @@ nav a:hover {
 .img-container:hover {
     box-shadow: 0 0 10px 10px rgba(248, 237, 173, 0.5);
 }
+
+.gif-container{
+    margin: 30px;
+}
+

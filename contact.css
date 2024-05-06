@@ -1,0 +1,17 @@
+/*Text box message for the Contact page*/
+.input input {
+    display: block;
+    margin: 0 auto; /* Set top and bottom margin to 0 and left and right margin to auto */
+    margin-bottom: 10px; /* Adjust spacing between input fields */
+    width: 50%; /* Optionally, set a width for the input fields */
+    border: none;
+}
+
+#text{
+    height: 100px;
+    text-align: top;
+}
+
+.input {
+    text-align: center; /* Center align the text within the input container */
+}
