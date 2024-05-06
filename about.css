@@ -1,0 +1,16 @@
+.aboutImg{
+    display: flex; /* Use flexbox to arrange items in a row */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.img {
+    width: 300px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between image and text */
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+}
+
+.img:hover {
+    transform: rotate(360deg);
+}
